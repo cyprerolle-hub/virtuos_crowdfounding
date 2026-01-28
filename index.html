@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIRTUOS - Le Serious Game de l'Éco-conception</title>
+    <link rel="icon" type="image/png" href="./Assets/Icone_virtuos.png">
     
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -135,12 +137,10 @@
             justify-content: space-between;
             align-items: center;
         }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: var(--violet);
-            letter-spacing: -0.5px;
+        
+           .logo {
+    display: flex;
+    align-items: center;
         }
 
         .logo span { color: var(--teal); }
@@ -528,7 +528,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">VIRTU<span>OS</span></a>
+                <a href="#" class="logo">
+                    <img src="logo.svg" alt="Logo Virtuos">
+                </a>
                 <ul class="nav-links">
                     <li><a href="#projet">Le Projet</a></li>
                     <li><a href="#jeu">Le Jeu</a></li>
@@ -647,17 +649,17 @@
         
         <div class="team-grid">
             <div class="member">
-                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=400&auto=format&fit=crop" alt="Cyprien" class="member-photo">
+                <img src="./Assets/cyprien.jpg" alt="Cyprien" class="member-photo">
                 <h4>Cyprien REROLLE</h4>
                 <span>Fondateur & Finances</span>
             </div>
             <div class="member">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop" alt="Laurène" class="member-photo">
+                <img src="./Assets/lauren.jpg" alt="Laurène" class="member-photo">
                 <h4>Laurène DUCOTTET</h4>
                 <span>Design & Logistique</span>
             </div>
             <div class="member">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" alt="Julien" class="member-photo">
+                <img src="./Assets/julien" alt="Julien" class="member-photo">
                 <h4>Julien NICOLAS</h4>
                 <span>Technique & Production</span>
             </div>
